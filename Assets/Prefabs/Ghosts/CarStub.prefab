@@ -1,0 +1,578 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1833253201146048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4492080781097318}
+  - component: {fileID: 6878480707481673463}
+  - component: {fileID: 577125654436524857}
+  - component: {fileID: 1832023779126745558}
+  - component: {fileID: 5212458398758309289}
+  - component: {fileID: 8702911829585498974}
+  - component: {fileID: 5032106819734703395}
+  - component: {fileID: 7835841319395969706}
+  - component: {fileID: 2985308117922108314}
+  - component: {fileID: 3312442647122068780}
+  - component: {fileID: 7798107994169773909}
+  - component: {fileID: 4510966609533425158}
+  - component: {fileID: 2975264271221498609}
+  - component: {fileID: 4135105652664232049}
+  m_Layer: 0
+  m_Name: CarStub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4492080781097318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1.889397, y: 1, z: 4.50235}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6878480707481673463
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_Mesh: {fileID: 4300028, guid: 09daf63b07ae7ae438ec02fd869b9967, type: 3}
+--- !u!23 &577125654436524857
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 787167bf5fef8744da76db78856a0971, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1832023779126745558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b275e5f92732148048d7b77e264ac30e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShapeType: 31
+  m_PrimitiveCenter:
+    x: 0
+    y: 0
+    z: 0
+  m_PrimitiveSize:
+    x: 1
+    y: 1
+    z: 1
+  m_PrimitiveOrientation:
+    Value:
+      x: 0
+      y: 0
+      z: 0
+    RotationOrder: 4
+  m_Capsule:
+    Height: 1
+    Radius: 0.5
+    Axis: 2
+  m_Cylinder:
+    Height: 1
+    Radius: 0.5
+    Axis: 2
+  m_CylinderSideCount: 20
+  m_SphereRadius: 0.5
+  m_MinimumSkinnedVertexWeight: 0.1
+  m_ConvexHullGenerationParameters:
+    m_SimplificationTolerance: 0.016166667
+    m_BevelRadius: 0.05
+    m_MinimumAngle: 2.5000002
+  m_CustomMesh: {fileID: 4300028, guid: 09daf63b07ae7ae438ec02fd869b9967, type: 3}
+  m_ForceUnique: 0
+  m_Material:
+    m_SupportsTemplate: 1
+    m_Template: {fileID: 11400000, guid: ff1fea0ca658d2645b0c9665442c0e50, type: 2}
+    m_CollisionResponse:
+      m_Override: 0
+      m_Value: 0
+    m_Friction:
+      m_Override: 0
+      m_Value:
+        Value: 0.5
+        CombineMode: 0
+    m_Restitution:
+      m_Override: 0
+      m_Value:
+        Value: 0
+        CombineMode: 2
+    m_BelongsToCategories:
+      m_Override: 0
+      m_Value:
+        Category00: 1
+        Category01: 1
+        Category02: 1
+        Category03: 1
+        Category04: 1
+        Category05: 1
+        Category06: 1
+        Category07: 1
+        Category08: 1
+        Category09: 1
+        Category10: 1
+        Category11: 1
+        Category12: 1
+        Category13: 1
+        Category14: 1
+        Category15: 1
+        Category16: 1
+        Category17: 1
+        Category18: 1
+        Category19: 1
+        Category20: 1
+        Category21: 1
+        Category22: 1
+        Category23: 1
+        Category24: 1
+        Category25: 1
+        Category26: 1
+        Category27: 1
+        Category28: 1
+        Category29: 1
+        Category30: 1
+        Category31: 1
+    m_CollidesWithCategories:
+      m_Override: 0
+      m_Value:
+        Category00: 1
+        Category01: 1
+        Category02: 1
+        Category03: 1
+        Category04: 1
+        Category05: 1
+        Category06: 1
+        Category07: 1
+        Category08: 1
+        Category09: 1
+        Category10: 1
+        Category11: 1
+        Category12: 1
+        Category13: 1
+        Category14: 1
+        Category15: 1
+        Category16: 1
+        Category17: 1
+        Category18: 1
+        Category19: 1
+        Category20: 1
+        Category21: 1
+        Category22: 1
+        Category23: 1
+        Category24: 1
+        Category25: 1
+        Category26: 1
+        Category27: 1
+        Category28: 1
+        Category29: 1
+        Category30: 1
+        Category31: 1
+    m_CustomMaterialTags:
+      m_Override: 0
+      m_Value:
+        Tag00: 0
+        Tag01: 0
+        Tag02: 0
+        Tag03: 0
+        Tag04: 0
+        Tag05: 0
+        Tag06: 0
+        Tag07: 0
+    m_SerializedVersion: 1
+    m_BelongsTo_Deprecated:
+      m_Override: 0
+      m_Value: 
+    m_CollidesWith_Deprecated:
+      m_Override: 0
+      m_Value: 
+    m_CustomTags_Deprecated:
+      m_Override: 0
+      m_Value: 
+    m_IsTrigger_Deprecated:
+      m_Override: 0
+      m_Value: 0
+    m_RaisesCollisionEvents_Deprecated:
+      m_Override: 0
+      m_Value: 0
+  m_SerializedVersion: 1
+  m_ConvexRadius_Deprecated: -1
+--- !u!114 &5212458398758309289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccea9ea98e38942e0b0938c27ed1903e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MotionType: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0
+  m_InitialLinearVelocity:
+    x: 0
+    y: 0
+    z: 0
+  m_InitialAngularVelocity:
+    x: 0
+    y: 0
+    z: 0
+  m_GravityFactor: 1
+  m_OverrideDefaultMassDistribution: 0
+  m_CenterOfMass:
+    x: 0
+    y: 0
+    z: 0
+  m_Orientation:
+    Value:
+      x: 0
+      y: 0
+      z: 0
+    RotationOrder: 4
+  m_InertiaTensor:
+    x: 0.4
+    y: 0.4
+    z: 0.4
+  m_CustomTags:
+    Tag00: 0
+    Tag01: 0
+    Tag02: 0
+    Tag03: 0
+    Tag04: 0
+    Tag05: 0
+    Tag06: 0
+    Tag07: 0
+--- !u!114 &8702911829585498974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc54a053b9cd3b45adf148bf91aec3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5032106819734703395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7902cfee62af8414e8c5159bf1ee2b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerId: 0
+  SteerAngle: 0
+  IsShieldActive: 0
+--- !u!114 &7835841319395969706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff223cb7acb9ee64392da3b54470bea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GoingBackward: 0
+--- !u!114 &2985308117922108314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14c05c07debc2cb4a89ceff7f453c9f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 100
+--- !u!114 &3312442647122068780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c79d771cedb4794bf100ce60df5f764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultClientInstantiationType: 0
+  RootPath: ../../Scripts/Generated
+  SnapshotDataPath: CarStubSnapshotData.cs
+  UpdateSystemPath: CarStubGhostUpdateSystem.cs
+  SerializerPath: CarStubGhostSerializer.cs
+  Importance: 1
+  PredictingPlayerNetworkId: CarComponent.PlayerId
+  Components:
+  - name: BoostComponent
+    interpolatedClient: 0
+    predictedClient: 0
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: CarComponent
+    interpolatedClient: 0
+    predictedClient: 0
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: CarTag
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: HealthComponent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: Health
+      quantization: 10
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 0
+  - name: MissileScopeComponent
+    interpolatedClient: 0
+    predictedClient: 0
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: ProgressionComponent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: CrossedCheckpoints
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 0
+  - name: ShieldComponent
+    interpolatedClient: 0
+    predictedClient: 0
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: SynchronizedCarComponent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: PlayerId
+      quantization: -1
+      interpolate: 0
+    - name: SteerAngle
+      quantization: 10
+      interpolate: 0
+    - name: IsShieldActive
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Unity.Physics.PhysicsCollider
+    interpolatedClient: 0
+    predictedClient: 0
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Unity.Physics.PhysicsDamping
+    interpolatedClient: 0
+    predictedClient: 0
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Unity.Physics.PhysicsMass
+    interpolatedClient: 0
+    predictedClient: 0
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Unity.Physics.PhysicsVelocity
+    interpolatedClient: 0
+    predictedClient: 0
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Unity.Transforms.CompositeScale
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Unity.Transforms.LocalToWorld
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Unity.Transforms.Rotation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: Value
+      quantization: 10000
+      interpolate: 1
+    manualFieldList: 1
+    entityIndex: 0
+  - name: Unity.Transforms.Translation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: Value
+      quantization: 10000
+      interpolate: 1
+    manualFieldList: 1
+    entityIndex: 0
+  prefabId: 3876e5469a8e4774c8e455e83060541e
+  Name: CarStub
+  doNotStrip: 0
+--- !u!114 &7798107994169773909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8081b78f41672b940b20379f84fb1143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RemainingTime: 0
+--- !u!114 &4510966609533425158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de8a59cde7291234e8c66c288a3bc54e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2975264271221498609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac7e61b0afda2d4eb10b7664d793ad9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrossedCheckpoints: 0
+--- !u!114 &4135105652664232049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833253201146048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86788e9aecc3bb24094bd8a6d83f7f65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RemainingTime: 0
